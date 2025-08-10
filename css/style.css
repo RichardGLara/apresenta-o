@@ -67,6 +67,46 @@ h1 {
     opacity: 70%;
 }
 
+.mapa {
+    margin-top: 40px;
+    width: 1230px;
+    height: 730px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../img/mapa_map.png");
+    background-size: 100%;
+}
+
+.mapa:hover {
+    background-image: url("../img/mapa_aero.png");
+}
+
+.mapa_igarape {
+    background-color: #ff006600;
+    width: 120px;
+    height: 150px;
+    border-radius: 10px;
+    border-color: #FF0066;
+    border-style:solid;
+    margin-top: 130px;
+    margin-left: 176px;
+}
+
+.mapa_igarape:hover {
+    background-image: url("../img/mapa3.png");
+    background-size: 100%;
+    width: 1220px;
+    height: 730px;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: none;
+}
+
 .local {
     margin-top: 40px;
     width: 1230px;
